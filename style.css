@@ -148,3 +148,44 @@ section{
     align-self: flex-end;
     font-size: 20px;
 }
+
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 70px 200px;
+    padding: 10px 140px;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.action-left-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+
+}
+
+.action{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    width: 100px;
+}
+
+.action-heading{
+    color: #E5E7EB;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.action-content{
+    color: white;
+    font-size: 12px;
+    opacity: 0.8;
+}
