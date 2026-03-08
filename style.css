@@ -40,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0px 10px;
-    padding: 10px 140px;
+    padding: 10px 168px;
 }
 
 .logo {
@@ -62,11 +62,13 @@ header {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 350px;
 }
 
 .content-of-hero{
     font-size: 18px;
     color: #E5E7EB;
+    width: 450px;
 }
 
 .left-card{
@@ -84,5 +86,6 @@ header {
     padding: 10px 20px;
     border: 0px;
     margin-top: 8px;
+    color: #F9FAF8;
 }
 
