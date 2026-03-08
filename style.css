@@ -189,3 +189,18 @@ section{
     font-size: 12px;
     opacity: 0.8;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1F2937 ;
+    color: #E5E7EB;
+    height: 40px;
+    
+}
+
+footer div{
+    opacity: 0.8;
+    font-size: 12px;
+}
