@@ -7,6 +7,7 @@
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    box-sizing: border-box;
 }
 
 ul {
@@ -87,5 +88,34 @@ header {
     border: 0px;
     margin-top: 8px;
     color: #F9FAF8;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content1-heading{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.content1-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+    padding: 10px 150px;   
+    width: 1000px; 
+    text-align: center;
+    gap: 50px;
+}       
+
+.card-text{
+    width: 150px;
 }
 
