@@ -40,11 +40,49 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0px 10px;
-    padding: 10px 100px;
+    padding: 10px 140px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.hero-container{
+    display: flex;
+    margin: 50px 10px;
+    padding: 10px 140px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading-of-hero{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.content-of-hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.button-of-hero{
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 0px;
+    margin-top: 8px;
 }
 
