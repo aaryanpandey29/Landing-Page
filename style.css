@@ -119,3 +119,32 @@ section{
     width: 150px;
 }
 
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+   
+}
+
+.quote-section .quote{
+    font-size: 30px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+    padding: 10px 150px;
+    width:900px;
+}
+
+.author{
+    align-self: flex-end;
+    font-size: 20px;
+}
